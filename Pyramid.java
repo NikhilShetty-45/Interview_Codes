@@ -20,23 +20,6 @@ public class Pyramid {
 			space--;
 			star++;
 		}
-		int sstar=n-1;
-		int sspace=1;
-		for(int i=0;i<n;i++)
-		{
-			for(int j=0;j<sspace;j++)
-			{
-				System.out.print(" ");
-			}
-			for(int j=0;j<sstar;j++)
-			{
-				System.out.print(" *");
-			}
-			
-			System.out.println();
-			sspace++;
-			sstar--;
-		}
 		
 	}
 
